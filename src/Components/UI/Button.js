@@ -5,7 +5,7 @@ const Button = (props) => {
     <button
       className={classes.button}
       type={props.type || "button"} // doubt
-      onClick={props.onClick}
+      onClick={props.onOKClick}
     >
       {props.children}
     </button>
